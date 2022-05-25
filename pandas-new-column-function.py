@@ -43,3 +43,5 @@ df['Duration'] = df['duration'].apply(movie_duration)
 df.to_csv(file_path, index=False)
 
 conn.close()
+
+# end
